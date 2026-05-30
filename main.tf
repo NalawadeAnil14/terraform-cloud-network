@@ -61,3 +61,6 @@ resource "aws_route_table_association" "rtassociation" {
   route_table_id = aws_route_table.public_rout_table.id
   subnet_id      = each.value.id
 }
+
+resource "aws_iam_user" "demo" {
+}
