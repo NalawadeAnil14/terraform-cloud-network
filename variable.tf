@@ -23,5 +23,5 @@ variable "private_subnet_cidr" {
 }
 
 variable "name" {
-  default = "pract"
+  default = "demo"
 }
