@@ -5,6 +5,15 @@ terraform {
       version = ">= 6.28"
     }
   }
+
+ cloud {
+    
+    organization = "ABN-first-org"
+
+    workspaces {
+      name = "CLI-driven-workspace"
+    }
+  }
 }
 
 provider "aws" {
