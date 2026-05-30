@@ -63,4 +63,6 @@ resource "aws_route_table_association" "rtassociation" {
 }
 
 resource "aws_iam_user" "demo" {
+  name = "Prasad"
 }
+
